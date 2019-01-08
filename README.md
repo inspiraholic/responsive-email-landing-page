@@ -1,2 +1,2 @@
-# responsive-email-landing-page
+# responsive email landing page
 (HTML + CSS-only)
