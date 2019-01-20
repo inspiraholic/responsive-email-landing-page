@@ -10,8 +10,11 @@
 </head>
 <body>
     <header>
-        <img src="https://res.cloudinary.com/inspiraholic/image/upload/v1548022249/landing/desktopheader.png" id="desktopheader" class="banner" />
-        <img src="https://res.cloudinary.com/inspiraholic/image/upload/v1548022262/landing/mobileheader.png" id="mobileheader" class="banner" />
+        <picture class="banner">
+        <source srcset="https://res.cloudinary.com/inspiraholic/image/upload/v1548022262/landing/mobileheader.png">
+        <source srcset="https://res.cloudinary.com/inspiraholic/image/upload/v1548022249/landing/desktopheader.png" media="(min-width: 768px)">
+        <img src="https://res.cloudinary.com/inspiraholic/image/upload/v1548022249/landing/desktopheader.png"/>
+        <picture>
     </header>
     <main class="content">
     <div class="contactform">
