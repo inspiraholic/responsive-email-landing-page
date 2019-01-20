@@ -68,15 +68,14 @@ footer {
         text-align: center;
     }
     
+    #mobileheader {
+    display: none;
+    }
+    
     #desktopheader {
     display: block;
     }
     
-    
-    #mobileheader {
-    display: none;
-    }
-
     h2, .contactform {
         display: inline;
     }
